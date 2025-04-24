@@ -1,0 +1,519 @@
+2025-04-16T23:05:34+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/Firewall/SFWUpdateHelper.php(460): apbct_sfw_update__download_files(Array, true)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1139): Cleantalk\ApbctWP\Firewall\SFWUpdateHelper::directUpdate()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/inc/cleantalk-settings.php(2589): apbct_sfw_update__init(5)
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): apbct_settings__sync('')
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-admin/admin-ajax.php(192): do_action('wp_ajax_apbct_s...')
+#10 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-16T23:08:59+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(704): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-16T23:09:15+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(704): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-17T23:05:52+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-17T23:05:52+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-19T00:49:35+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/Firewall/SFWUpdateHelper.php(460): apbct_sfw_update__download_files(Array, true)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1139): Cleantalk\ApbctWP\Firewall\SFWUpdateHelper::directUpdate()
+#5 [internal function]: apbct_sfw_update__init()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Cron.php(266): call_user_func_array('apbct_sfw_updat...', Array)
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(282): Cleantalk\Common\Cron->runTasks(Array)
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-19T00:49:35+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/Firewall/SFWUpdateHelper.php(460): apbct_sfw_update__download_files(Array, true)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1139): Cleantalk\ApbctWP\Firewall\SFWUpdateHelper::directUpdate()
+#5 [internal function]: apbct_sfw_update__init()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Cron.php(266): call_user_func_array('apbct_sfw_updat...', Array)
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(282): Cleantalk\Common\Cron->runTasks(Array)
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-19T06:53:25+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-19T06:53:25+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-20T19:49:45+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/Firewall/SFWUpdateHelper.php(460): apbct_sfw_update__download_files(Array, true)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1139): Cleantalk\ApbctWP\Firewall\SFWUpdateHelper::directUpdate()
+#5 [internal function]: apbct_sfw_update__init()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Cron.php(266): call_user_func_array('apbct_sfw_updat...', Array)
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(282): Cleantalk\Common\Cron->runTasks(Array)
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-20T19:49:45+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/Firewall/SFWUpdateHelper.php(460): apbct_sfw_update__download_files(Array, true)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1139): Cleantalk\ApbctWP\Firewall\SFWUpdateHelper::directUpdate()
+#5 [internal function]: apbct_sfw_update__init()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Cron.php(266): call_user_func_array('apbct_sfw_updat...', Array)
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(282): Cleantalk\Common\Cron->runTasks(Array)
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-20T20:03:03+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-20T20:03:03+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-21T20:03:38+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-21T20:03:38+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-21T20:03:43+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-21T20:03:43+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-22T20:04:39+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-22T20:04:39+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-22T20:04:43+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-22T20:04:43+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-23T20:24:39+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-23T20:24:39+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-23T20:24:45+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
+2025-04-23T20:24:45+00:00 CRITICAL Uncaught Error: Call to undefined function Cleantalk\Common\HTTP\curl_multi_exec() in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php:265
+Stack trace:
+#0 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php(190): Cleantalk\Common\HTTP\Request->requestMulti()
+#1 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Helper.php(649): Cleantalk\Common\HTTP\Request->request()
+#2 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1493): Cleantalk\Common\Helper::httpMultiRequest(Array, '/home/vol3_5/in...')
+#3 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/Queue.php(96): apbct_sfw_update__download_files(Array)
+#4 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(1284): Cleantalk\Common\Queue->executeStage()
+#5 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(185): apbct_sfw_update__worker()
+#6 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/ApbctWP/RemoteCalls.php(124): Cleantalk\ApbctWP\RemoteCalls::action__sfw_update__worker()
+#7 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/cleantalk.php(303): Cleantalk\ApbctWP\RemoteCalls::perform()
+#8 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(324): {closure}('')
+#9 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-settings.php(727): do_action('init')
+#12 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-config.php(102): require_once('/home/vol3_5/in...')
+#13 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-load.php(50): require_once('/home/vol3_5/in...')
+#14 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-blog-header.php(13): require_once('/home/vol3_5/in...')
+#15 /home/vol3_5/infinityfree.com/if0_38346062/htdocs/index.php(17): require('/home/vol3_5/in...')
+#16 {main}
+  thrown in /home/vol3_5/infinityfree.com/if0_38346062/htdocs/wp-content/plugins/cleantalk-spam-protect/lib/Cleantalk/Common/HTTP/Request.php on line 265
+
